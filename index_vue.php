@@ -25,7 +25,7 @@
 </head>
 
 <body>
-
+<div id="app">
     <header>
             <!-- create navbar -->
         <div class="container-fluid my-navbar">
@@ -41,13 +41,23 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row row-cols-5">
-                     
+                        <div class="col" v-for="card in listaDischi">
+                            <div class="card">
+                                <img :src="card.poster" :alt="card.author" />
+                                <div class="card-body">
+                                    <div class="card-title">{{ card.title }}</div>
+                                    <div class="card-author">{{ card.author }}</div>
+                                    <div class="card-year">{{ card.year }}</div>
+                                </div>
+                            </div>  
+                        </div>
+                        
+                    </div>
                 </div>
-            </div>
         </div>
     </main>
-
+</div>
     <!-- <footer></footer> -->
-    
+    <script src="js/vue.js"></script>
 </body>
 </html>
