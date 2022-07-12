@@ -1,7 +1,7 @@
 
 .my-navbar {
     background-color: #2d3a46;
-    padding: 0.5rem;
+    padding: 0.2rem;
     display: flex;
 }
 
@@ -9,17 +9,7 @@
     overflow: auto;
     flex-grow: 1;
     background-color: #1e2d3b;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.select-genre {
-    padding: 1rem 0.75rem;
-    margin-bottom: 2rem;
-    width: calc(100% / 5);
-    background-color: #1bd760;
-    font-weight: bold;
-    font-size: 1.2rem;
+    padding-top: 3rem;
 }
 
 .card {
@@ -27,7 +17,7 @@
     background-color: #2d3a46;
     color: white;
     text-align: center;
-    font-size: .9rem;
+    font-size: 15px;
 }
 
 .card img {
