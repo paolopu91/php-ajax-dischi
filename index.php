@@ -14,7 +14,8 @@ Attraverso un’altra chiamata api, filtrare gli album per genere lato backend.
 
 <?php 
 
-include "db.php";
+// i will use include
+include "db/db.php";
 
 ?>
 
@@ -34,6 +35,7 @@ include "db.php";
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header>
         <div class="container-fluid">
 
