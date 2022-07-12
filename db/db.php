@@ -1,6 +1,7 @@
 <?php 
 
-include "db/db_dischi.php";
+//i will use require here
+require "db/db_dischi.php";
     
   var_dump($response);
 
