@@ -34,22 +34,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row row-cols-5">
-                        <?php
-                    foreach ($response as $card) {
-                        echo '
-                        <div class="col">
-                        <div class="card">
-                        <img src="'. $card["poster"] .'" alt="'. $card["author"] .'" />
-                        <div class="card-body">
-                        <div class="card-title">'. $card["title"] .'</div>
-                        <div class="card-author">'. $card["author"] .'</div>
-                        <div class="card-year">'. $card["year"] .'</div>
-                        </div>
-                        </div>  
-                        </div>
-                        ';
-                    }
-                    ?>
+                     
                 </div>
             </div>
         </div>
