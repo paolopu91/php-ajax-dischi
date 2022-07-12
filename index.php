@@ -15,7 +15,7 @@ Attraverso un’altra chiamata api, filtrare gli album per genere lato backend.
 <?php 
 
 // i will use include
-include "db/db.php";
+include "db/db_dischi.php";
 
 ?>
 
@@ -37,8 +37,13 @@ include "db/db.php";
 <body>
 
     <header>
-        <div class="container-fluid">
-
+            <!-- create navbar -->
+        <div class="container-fluid my-navbar">
+            
+            <div class>
+                <img class="w-100" src="img/favicon-32x32.png" alt="logo spotify" />
+            </div>
+        
         </div>
     </header>
 

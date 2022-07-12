@@ -8,26 +8,7 @@ div#app {
 .my-navbar {
     background-color: #2d3a46;
     padding: 0.5rem;
-    flex-shrink: 0;
     display: flex;
-}
-
-.my-navbar img {
-    background-color: transparent;
-    width: 4rem;
-}
-
-.search-bar {
-    align-self: center;
-    flex-grow: 1;
-    padding: 0 2rem;
-}
-
-.search-bar input[type="text"] {
-    width: 100%;
-    border-radius: 10px;
-    border-color: transparent;
-
 }
 
 .main-content {
